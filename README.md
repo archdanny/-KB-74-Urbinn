@@ -8,8 +8,8 @@
 2.1 [Scrum](#scrum) <br>
 2.1 [Issues](#issues) <br>
 2.3 [Overige](#overige) <br>
-3. [Presentaties & Blog updates](#notulen_en_Presentaties)
-4. [Cursussen & Workshops](#cursussen_en_workshops) <br>
+3. [Presentaties & Blog updates](#presentaties_blog)
+4. [Cursussen en Workshops](#cursussen_en_workshops) <br>
 4.1 [Datacamp](#datacamp) <br>
 4.2 [Coursera](#coursera) <br>
 4.3 [Calling Bullshit](#calling_bullshit) <br>
@@ -27,25 +27,27 @@ In de portfolio geef ik  aan wat ik allemaal voor het project heb gedaan. Hier k
 # 2. Producten <a name="producten"></a> 
 
 
-## 2.1 Scrum
+## 2.1 Scrum  <a name="scrum"></a> 
 
 De eerste week hadden we een scrum workshop waar we de principes van scrum konden leren. We moesten ook een opdracht ervoor maken. In deze opdracht heb ik beschreven hoe scrum aan de ‘Principles behind the Agile Manifesto’ voldoet. <br>
 [Scrum opdracht](Producten/Scrum/Scrum.md)
 
 
-## 2.2 Issues
+## 2.2 Issues  <a name="issues"></a> 
 
 Hier worden de issues die ik gemaakt heb besproken.
 
-### Issue 1 :  SVO Paper bestuderen [#1](https://github.com/urbinn/urbinn/issues/1) 
-Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. 
+### Issue 1 :  Literatuur scan: gebruikte technologieen [#1](https://github.com/urbinn/urbinn/issues/1) 
+Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. <br>
+[Existin Technologies](Files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
-### Issue 21 :  SVO Paper bestuderen [#21](https://github.com/urbinn/urbinn/issues/21) 
-We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in mer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
+### Issue 21 :  Zoeken naar tutorials/videos voor LSD SLAM [#21](https://github.com/urbinn/urbinn/issues/21) 
+We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in meer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
 
 
 ### Issue 27 :  SVO Paper bestuderen [#27](https://github.com/urbinn/urbinn/issues/27) 
-
+Ik heb samen met Isa een samenvatting van de werking van SVO (Semi-direct Visual Odometry) gemaakt.  <br>
+[SVO Paper](Files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
 ### Issue 32 :  Camera Calibratie [#32](https://github.com/urbinn/urbinn/issues/32) 
 
@@ -84,7 +86,7 @@ ORB SLAM2 is in c++ geschreven. Om het import tool te maken moest ik een functie
 
 
 
-# 3 Presentaties & Blog updates
+# 3 Presentaties & Blog updates  <a name="presentaties_blog"></a> 
 
 Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en de presentaties geven. 
 
@@ -95,7 +97,7 @@ Week 13 [Presentatie](Producten/Presentatie/Week 13 - Presentatie.pptx)
 Week 14 [Presentatie](Producten/Presentatie/Week 14 - Presentatie.pptx)
 
 
-# 4. Cursussen & Workshops 
+# 4. Cursussen en Workshops  <a name="cursussen_en_workshops"></a> 
 
 
 
