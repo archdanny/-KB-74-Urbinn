@@ -57,10 +57,16 @@ Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gek
 
 De save/ load map feature is door een andere developer gemaakt . Het is gemaakt met behulp van de BOOST C++ framework. De boost serializatie zorgt ervoor dat de Map en de KeyframeDatabase classen geserializeerd worden.  Als de applicatie opnieuw geopend wordt kunnen de classen in dezelfde staat geïmporteerd worden. Op deze manier is het mogelijk een pointcloud te updaten met verschillende runs. Deze feature maakt een map.bin file met de classes.
 
+### Issue 41 :  ORB2 Incrementeel leren  [#41](https://github.com/urbinn/urbinn/issues/41) 
+
+### Issue 42 :  Metrics voor evaluatie point cloud  [#42](https://github.com/urbinn/urbinn/issues/42) 
+
 ### Issue 44 :  Installeren ORB2 SLAM server [#44](https://github.com/urbinn/urbinn/issues/44)
 
 Ik heb ORB SLAM2 samen met Jeffrey geïnstalleerd op een centrale server. (Eerste server)
 
+
+### Issue 47 :  Beschrijven data structuur in text file [#47](https://github.com/urbinn/urbinn/issues/47)
 
 ### Issue 51 :  ORB2 extracten points naar csv file [#51](https://github.com/urbinn/urbinn/issues/51)
 
@@ -71,6 +77,9 @@ Om de evaluatie uit te voeren hebben we de gegenereerde point cloud nodig om de 
 Voor het selecteren van een object detection framework moesten we twee papers doornemen.
 We zijn tijdens de  group reading sessions snel achter gekomen dat YOLO (You Only Look Once) het beste was.
 
+### Issue 56 :  Presentatie maken + blog updaten [#56](https://github.com/urbinn/urbinn/issues/56)
+
+
 ### Issue 58 :  Beschrijven data structuur MapPoint in ORB2 [#58](https://github.com/urbinn/urbinn/issues/58)
 
 ORB SLAM2 is een open source SLAM algoritme met een loop closure mogelijkheid. Dit is een van de belangrijke redenen waarom we ervoor hebben gekozen. De source code was volledig gedocumenteerd.  Ik heb documentatie toegevoegd aan de source code. Dit is voor de map point structuur gedaan. 
@@ -78,10 +87,50 @@ ORB SLAM2 is een open source SLAM algoritme met een loop closure mogelijkheid. D
 ### Issue 60 :  Beschrijven structuur KeyFrameDatabase in ORB2 [#60](https://github.com/urbinn/urbinn/issues/60)
 
 
-### Issue 71 :  Resutaten ORB2 bin exporteren [#71](https://github.com/urbinn/urbinn/issues/71)
+### Issue 72 :  Resutaten ORB2 bin exporteren [#72](https://github.com/urbinn/urbinn/issues/72)
 
 ORB SLAM2 is in c++ geschreven. Om het import tool te maken moest ik een functie maken in c++ die van ORB SLAM 2 geïmporteerd kon worden in een andere programma.
 
+### Issue 79 :  ORB coordinaten converteren [#79](https://github.com/urbinn/urbinn/issues/79)
+
+### Issue 79 :  ORB output uitbreiden met keyframe coordinaten [#79](https://github.com/urbinn/urbinn/issues/79)
+
+
+### Issue 81 :  Literatuur scan: filteren slam met object detectie [#81](https://github.com/urbinn/urbinn/issues/81)
+
+
+### Issue 86 :  Ground truth nieuwe trainingsdata labelen [#86](https://github.com/urbinn/urbinn/issues/86)
+
+
+### Issue 89 :  import xml data (pointcloud) orbslam2 [#89](https://github.com/urbinn/urbinn/issues/89)
+
+
+
+### Issue 91 :  ORB2 pointcloud maken slinger [#91](https://github.com/urbinn/urbinn/issues/91)
+
+
+### Issue 106 :  Orb2 stability fix [#106](https://github.com/urbinn/urbinn/issues/106)
+
+### Issue 112 :  URB: Evaluatie Pointcloud [#112](https://github.com/urbinn/urbinn/issues/112)
+
+### Issue 126 :  Local Bundle Adjustment [#126](https://github.com/urbinn/urbinn/issues/126)
+
+
+### Issue 132 :  Efficient depth estimation [#132](https://github.com/urbinn/urbinn/issues/132)
+
+
+
+### Issue 134 :  Een centrale repository maken van Pyurb en g2o [#134](https://github.com/urbinn/urbinn/issues/134)
+
+
+### Issue 136 :  Full BA code schrijven [#136](https://github.com/urbinn/urbinn/issues/136)
+
+
+
+### Issue 137 :  Handmatig bepalen welke frame overlappen op Sequence 07 KITTI [#137](https://github.com/urbinn/urbinn/issues/137)
+
+
+### Issue 145 :  Urb BA code testen en debuggen [#145](https://github.com/urbinn/urbinn/issues/145)
 
 
 
