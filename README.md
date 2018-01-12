@@ -38,76 +38,47 @@ De eerste week hadden we een scrum workshop waar we de principes van scrum konde
 Hier worden de issues die ik gemaakt heb besproken.
 
 ### Issue 1 :  SVO Paper bestuderen [#1](https://github.com/urbinn/urbinn/issues/1) 
-Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekend voorbeelden gezocht zoals Google Self Driving Cars en Tesla. 
+Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. 
 
 ### Issue 21 :  SVO Paper bestuderen [#21](https://github.com/urbinn/urbinn/issues/21) 
+We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in mer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
+
 
 ### Issue 27 :  SVO Paper bestuderen [#27](https://github.com/urbinn/urbinn/issues/27) 
 
 
 ### Issue 32 :  Camera Calibratie [#32](https://github.com/urbinn/urbinn/issues/32) 
 
+Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gekeken. Een veelgebruikte standaard is de OpenCV Camera Calibratie framework. We hebben deze in de omgeving van ROS gebruikt.
+
 ### Issue 40 :  ORB2 save/load map [#40](https://github.com/urbinn/urbinn/issues/40) 
+
+De save/ load map feature is door een andere developer gemaakt . Het is gemaakt met behulp van de BOOST C++ framework. De boost serializatie zorgt ervoor dat de Map en de KeyframeDatabase classen geserializeerd worden.  Als de applicatie opnieuw geopend wordt kunnen de classen in dezelfde staat geïmporteerd worden. Op deze manier is het mogelijk een pointcloud te updaten met verschillende runs. Deze feature maakt een map.bin file met de classes.
 
 ### Issue 44 :  Installeren ORB2 SLAM server [#44](https://github.com/urbinn/urbinn/issues/44)
 
+Ik heb ORB SLAM2 samen met Jeffrey geïnstalleerd op een centrale server. (Eerste server)
+
+
+### Issue 51 :  ORB2 extracten points naar csv file [#51](https://github.com/urbinn/urbinn/issues/51)
+
+Om de evaluatie uit te voeren hebben we de gegenereerde point cloud nodig om de nauwkeurigheid van de algoritme te bepalen. De functionaliteit was toegevoegd en gemerged met de master branch.
+
 ### Issue 55 :  Object detection papers lezen [#55](https://github.com/urbinn/urbinn/issues/55)
 
+Voor het selecteren van een object detection framework moesten we twee papers doornemen.
+We zijn tijdens de  group reading sessions snel achter gekomen dat YOLO (You Only Look Once) het beste was.
+
 ### Issue 58 :  Beschrijven data structuur MapPoint in ORB2 [#58](https://github.com/urbinn/urbinn/issues/58)
+
+ORB SLAM2 is een open source SLAM algoritme met een loop closure mogelijkheid. Dit is een van de belangrijke redenen waarom we ervoor hebben gekozen. De source code was volledig gedocumenteerd.  Ik heb documentatie toegevoegd aan de source code. Dit is voor de map point structuur gedaan. 
 
 ### Issue 60 :  Beschrijven structuur KeyFrameDatabase in ORB2 [#60](https://github.com/urbinn/urbinn/issues/60)
 
 
 ### Issue 71 :  Resutaten ORB2 bin exporteren [#71](https://github.com/urbinn/urbinn/issues/71)
 
-
-### Issue 32 :  Camera Calibratie [#32](https://github.com/urbinn/urbinn/issues/32)
-
-Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gekeken. Een veelgebruikte standaard is de OpenCV Camera Calibratie framework. We hebben deze in de omgeving van ROS gebruikt.
-
-
-### Issue 40 :  ORB2 save/load map [#40](https://github.com/urbinn/urbinn/issues/40)
-
-De save/ load map feature is door een andere developer gemaakt . Het is gemaakt met behulp van de BOOST C++ framework. De boost serializatie zorgt ervoor dat de Map en de KeyframeDatabase classen geserializeerd worden.  Als de applicatie opnieuw geopend wordt kunnen de classen in dezelfde staat geïmporteerd worden. Op deze manier is het mogelijk een pointcloud te updaten met verschillende runs. Deze feature maakt een map.bin file met de classes.
-
-
-Issue 44 :  Installeren ORB2 SLAM server
-
-Ik heb ORB SLAM2 samen met Jeffrey geïnstalleerd op een centrale server. (Eerste server)
-
-
-Issue 51 : ORB2 extracten points naar csv file
-
-Om de evaluatie uit te voeren hebben we de gegenereerde point cloud nodig om de nauwkeurigheid van de algoritme te bepalen. De functionaliteit was toegevoegd en gemerged met de master branch.
-
-
-Issue 55 : Object detection papers lezen.
-
-Voor het selecteren van een object detection framework moesten we twee papers doornemen.
-We zijn tijdens de  group reading sessions snel achter gekomen dat YOLO (You Only Look Once) het beste was.
-
-
-Documentatie ORB SLAM2:
-
-ORB SLAM2 is een open source SLAM algoritme met een loop closure mogelijkheid. Dit is een van de belangrijke redenen waarom we ervoor hebben gekozen. De source code was volledig gedocumenteerd.  Ik heb documentatie toegevoegd aan de source code.
-
-Issue 58 :  Beschrijven data structuur MapPoint in ORB2
-
-Issue 60 : Beschrijven structuur KeyFrameDatabase in ORB2
-
-
-Issue 72 : Resutaten ORB2 bin exporteren
-
 ORB SLAM2 is in c++ geschreven. Om het import tool te maken moest ik een functie maken in c++ die van ORB SLAM 2 geïmporteerd kon worden in een andere programma.
-
-
-
-Issue 81 : Literatuur scan: filteren slam met object detectie
-
-Issue 91 : ORB2 pointcloud maken slinger
-
-
-
 
 
 
@@ -122,8 +93,6 @@ Week 5 [Presentatie](Producten/Presentatie/Week 5 - Presentatie.pptx)
 Week 6 [Presentatie](Producten/Presentatie/Week 6 - Presentatie.pptx)
 Week 13 [Presentatie](Producten/Presentatie/Week 13 - Presentatie.pptx)
 Week 14 [Presentatie](Producten/Presentatie/Week 14 - Presentatie.pptx)
-
-
 
 
 # 4. Cursussen & Workshops 
