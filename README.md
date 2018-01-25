@@ -41,7 +41,7 @@ Hier worden de issues die ik gemaakt heb besproken.
 Issue | Omschrijving 
 ------------ | -------------
 [#1](https://github.com/urbinn/urbinn/issues/1) | ### Issue 1 :  Literatuur scan: gebruikte technologieen.  Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla.
-[Existin Technologies](Files/Issue1/Issue 1 - Existing Technologies.pdf) 
+[Existin Technologies](files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
 ### Issue 21 :  Zoeken naar tutorials/videos voor LSD SLAM [#21](https://github.com/urbinn/urbinn/issues/21) 
 We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in meer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
@@ -49,7 +49,7 @@ We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Dez
 
 ### Issue 27 :  SVO Paper bestuderen [#27](https://github.com/urbinn/urbinn/issues/27) 
 Ik heb samen met Isa een samenvatting van de werking van SVO (Semi-direct Visual Odometry) gemaakt. 
-[SVO Paper](Files/Issue1/Issue 1 - Existing Technologies.pdf) 
+[SVO Paper](files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
 ### Issue 32 :  Camera Calibratie [#32](https://github.com/urbinn/urbinn/issues/32) 
 
@@ -209,7 +209,7 @@ Ik heb een paar python opdrachten in notebooks gemaakt. De notobooks  kunnen hie
 
 ## 4.4 Spark 
 
-Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden worden. [Notebooks folder](Producten/spark)
+Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden worden. [Spark folder](producten/spark)
 
 
 
