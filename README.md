@@ -30,7 +30,7 @@ In de portfolio geef ik  aan wat ik allemaal voor het project heb gedaan. Hier k
 ## 2.1 Scrum 
 
 De eerste week hadden we een scrum workshop waar we de principes van scrum konden leren. We moesten ook een opdracht ervoor maken. In deze opdracht heb ik beschreven hoe scrum aan de ‘Principles behind the Agile Manifesto’ voldoet. 
-[Scrum opdracht](Producten/Scrum/Scrum.md)
+[Scrum opdracht](producten/scrum/Scrum.md)
 
 
 ## 2.2 Issues 
@@ -157,15 +157,15 @@ We kregen geen goeie output van BA. Hierdoor was ik bezig om de code BA te contr
 
 Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en de presentaties geven. 
 
-In de presentaties folder staat elke presentatie die ik gemaakt heb. [Folder](Producten/Presentatie) 
+In de presentaties folder staat elke presentatie die ik gemaakt heb. [Folder](producten/presentatie) 
 
 | Week | Presentatie |
 |------|:-----------:|                  
-|Week 5|[Presentatie](Producten/Presentatie/Week_5_presentatie.pptx)|
-|Week 6|[Presentatie](Producten/Presentatie/Week_6_presentatie.pptx)|
-|Week 13|[Presentatie](Producten/Presentatie/Week_13_presentatie.pptx)|
-|Week 14|[Presentatie](Producten/Presentatie/Week_14_presentatie.pptx)|
-|Week 17|[Presentatie](Producten/Presentatie/Week_17_presentatie.pptx)|
+|Week 5|[Presentatie](producten/presentatie/Week_5_presentatie.pptx)|
+|Week 6|[Presentatie](producten/presentatie/Week_6_presentatie.pptx)|
+|Week 13|[Presentatie](producten/presentatie/Week_13_presentatie.pptx)|
+|Week 14|[Presentatie](producten/presentatie/Week_14_presentatie.pptx)|
+|Week 17|[Presentatie](producten/presentatie/Week_17_presentatie.pptx)|
 
 
 
@@ -201,15 +201,15 @@ Ik heb de datcamp assigments gedaan. Het heeft geholpen om veel gebruikte data s
 
 ## 4.3 Calling Bullshit 
 
-[Calling Bullshit](Producten/calling_bullshit/CallingBullshit.pdf)
+[Calling Bullshit](producten/calling_bullshit/CallingBullshit.pdf)
 
 ## 4.4 Notebooks 
 
-Ik heb een paar python opdrachten in notebooks gemaakt. De notobooks  kunnen hier gevonden worden. [Notebooks folder](Producten/Notebooks)
+Ik heb een paar python opdrachten in notebooks gemaakt. De notobooks  kunnen hier gevonden worden. [Notebooks folder](producten/notebooks)
 
 ## 4.4 Spark 
 
-Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden worden. [Notebooks folder](Producten/Spark)
+Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden worden. [Notebooks folder](Producten/spark)
 
 
 
