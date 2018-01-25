@@ -157,31 +157,18 @@ We kregen geen goeie output van BA. Hierdoor was ik bezig om de code BA te contr
 
 Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en de presentaties geven. 
 
-In de presentaties folder staat elke presentatie die ik gemaakt heb. [Folder](producten/presentatie) 
+In de presentaties folder staat elke presentatie die ik gemaakt heb. [Presentatie's folder](producten/presentaties) 
 
 | Week | Presentatie |
 |------|:-----------:|                  
-|Week 5|[Presentatie](producten/presentatie/Week_5_presentatie.pptx)|
-|Week 6|[Presentatie](producten/presentatie/Week_6_presentatie.pptx)|
-|Week 13|[Presentatie](producten/presentatie/Week_13_presentatie.pptx)|
-|Week 14|[Presentatie](producten/presentatie/Week_14_presentatie.pptx)|
-|Week 17|[Presentatie](producten/presentatie/Week_17_presentatie.pptx)|
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
+|Week 5|[Presentatie](producten/presentaties/Week_5_presentatie.pptx)|
+|Week 6|[Presentatie](producten/presentaties/Week_6_presentatie.pptx)|
+|Week 13|[Presentatie](producten/presentaties/Week_13_presentatie.pptx)|
+|Week 14|[Presentatie](producten/presentaties/Week_14_presentatie.pptx)|
+|Week 17|[Presentatie](producten/presentaties/Week_17_presentatie.pptx)|
 
 
 # 4. Cursussen en Workshops
-
-
 
 ## 4.1 Coursera 
 
