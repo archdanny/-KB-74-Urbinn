@@ -175,6 +175,9 @@ Ik heb aan de g2o methodes gewerkt om ervoor te zorgen dat de input die van urb 
         vpKFs.push_back(frame);
     }
 ```
+
+Bij het filteren van observation die onjuist zijn heb ik ook aan geholpen. Hier worden observation uitgefiltered die niet goed te matchen zijn. 
+
 ```javascript
     self._observations = [ o for o in self._observations if o.get_patch().flatten().std() > 20 ]
 ```
