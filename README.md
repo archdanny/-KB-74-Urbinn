@@ -159,8 +159,22 @@ Keuze van belangrijke data die opgeslagen moet worden.
 ```
 
 
-        
+Full Bundle Adjustment, Motion Only Bundle Adjusmtment en Local Bundle Adjumstment.
 
+Ik heb aan de g2o methodes gewerkt om ervoor te zorgen dat de input die van urb komt doot g2o gebruikt kon worden. 
 
+```javascript
+    std::vector<KeyFrame> vpKFs;
 
-
+    for(int n = 0; n < keyframes.rows(); n++) {
+        Eigen::MatrixXd currentFrame(4, 4);
+        currentFrame << keyFrameRowToMatrix(keyframes.row(n));
+        // cout << currentFrame << std::endl;
+        // cout << keyframes.row(n)(0) << endl;
+        KeyFrame frame = std::make_pair( std::make_pair(n,keyframes.row(n)(0)) , currentFrame);
+        vpKFs.push_back(frame);
+    }
+```
+```javascript
+    self._observations = [ o for o in self._observations if o.get_patch().flatten().std() > 20 ]
+```
