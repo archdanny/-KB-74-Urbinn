@@ -42,7 +42,7 @@ Hier worden de issues die ik gemaakt heb besproken.
 
 Issue | Omschrijving 
 ------------ | -------------
-[#1](https://github.com/urbinn/urbinn/issues/1) |  **Issue 1 :  Literatuur scan: gebruikte technologieen.**  <br> Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. <br> [Existin Technologies](files/Issue1/Issue 1 - Existing Technologies.pdf) 
+[#1](https://github.com/urbinn/urbinn/issues/1) |  **Issue 1 :  Literatuur scan: gebruikte technologieen.**  <br> Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. <br> [Existin Technologies](files/Issue1/Issue_1.pdf) 
 [#21](https://github.com/urbinn/urbinn/issues/21)  |  **Issue 21 :  Zoeken naar tutorials/videos voor LSD SLAM** <br> We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in meer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
 [#27](https://github.com/urbinn/urbinn/issues/27)  |  **Issue 27 :  SVO Paper bestuderen**  <br> Ik heb samen met Isa een samenvatting van de werking van SVO (Semi-direct Visual Odometry) gemaakt   <br> [SVO Paper](files/Issue1/Issue 1 - Existing Technologies.pdf) 
 [#32](https://github.com/urbinn/urbinn/issues/32) |  **Issue 32 :  Camera Calibratie**  <br> Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gekeken. Een veelgebruikte standaard is de OpenCV Camera Calibratie framework. We hebben deze in de omgeving van ROS gebruikt.
@@ -59,9 +59,9 @@ Issue | Omschrijving
 [#72](https://github.com/urbinn/urbinn/issues/72) | **Issue 72 :  Resutaten ORB2 bin exporteren** <br> ORB SLAM2 is in c++ geschreven. Om het import tool te maken moest ik een functie maken in c++ die van ORB SLAM 2 geïmporteerd kon worden in een andere programma.
 [#79](https://github.com/urbinn/urbinn/issues/79) | **Issue 79 :  ORB coordinaten converteren** 
 [#80](https://github.com/urbinn/urbinn/issues/79) | **Issue 80 :  ORB output uitbreiden met keyframe coordinaten** <br> De coordinaten van keyframes waren nodig bij de output. De coordinaten moesten opbieuw geimporteerd worden.
-[#81](https://github.com/urbinn/urbinn/issues/81) | **Issue 81 :  Literatuur scan: filteren slam met object detectie** <br> We moesten onderzoeken of er een techniek bestond of SLAM gemaakte punten te filteren met 
+[#81](https://github.com/urbinn/urbinn/issues/81) | **Issue 81 :  Literatuur scan: filteren slam met object detectie** <br> We moesten onderzoeken of er een techniek bestond of SLAM gemaakte punten te filteren met een object detection framework. 
 [#86](https://github.com/urbinn/urbinn/issues/86) |  **Issue 86 :  Ground truth nieuwe trainingsdata labelen**
-[#89](https://github.com/urbinn/urbinn/issues/89) | **Issue 89 :  import xml data (pointcloud) orbslam2**
+[#89](https://github.com/urbinn/urbinn/issues/89) | **Issue 89 :  import xml data (pointcloud) orbslam2** De data die  in de xml format was opgeslagen moest opnieuw geimporteerd worden. Ik heb een methode daarvoor gemaakt. Zo is het mogelijk om gexporteerde data in xml format opnieuw te importeren. 
 [#91](https://github.com/urbinn/urbinn/issues/91) | **Issue 91 :  ORB2 pointcloud maken slinger** <br> Ik heb een pointcloud gemaakt van onze gemaakte opnames van de slinger. 
 [#106](https://github.com/urbinn/urbinn/issues/106) | **Issue 106 :  Orb2 stability fix** <br> Ik heb een paar memory leaks in orb slam 2 gevonden. Ik heb deze dan gefixt.
 [#112](https://github.com/urbinn/urbinn/issues/112) | **Issue 112 :  URB: Evaluatie Pointcloud** 
@@ -159,7 +159,7 @@ Keuze van belangrijke data die opgeslagen moet worden.
 ```
 
 
-Full Bundle Adjustment, Motion Only Bundle Adjusmtment en Local Bundle Adjumstment.
+Full Bundle Adjustment, Motion Only Bundle Adjusmtment, Outliers Detection en Local Bundle Adjumstment.
 
 Ik heb aan de g2o methodes gewerkt om ervoor te zorgen dat de input die van urb komt doot g2o gebruikt kon worden. 
 
