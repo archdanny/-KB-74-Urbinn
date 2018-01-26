@@ -40,20 +40,13 @@ Hier worden de issues die ik gemaakt heb besproken.
 
 Issue | Omschrijving 
 ------------ | -------------
-[#1](https://github.com/urbinn/urbinn/issues/1) | ### Issue 1 :  Literatuur scan: gebruikte technologieen.  Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla.
-[Existin Technologies](files/Issue1/Issue 1 - Existing Technologies.pdf) 
+[#1](https://github.com/urbinn/urbinn/issues/1) | ### Issue 1 :  Literatuur scan: gebruikte technologieen.  <br> Voor deze issue heb ik bestaande technologieeen opgezocht die gebruikt worden bij zelfrijdende auto's. Ik heb naar bekende voorbeelden gezocht zoals Google Self Driving Cars en Tesla. <br> [Existin Technologies](files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
-### Issue 21 :  Zoeken naar tutorials/videos voor LSD SLAM [#21](https://github.com/urbinn/urbinn/issues/21) 
-We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in meer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
+[#21](https://github.com/urbinn/urbinn/issues/21)  | ### Issue 21 :  Zoeken naar tutorials/videos voor LSD SLAM  <br> We hebben een paar bestaande technieken gevonden die gebruikt kunnen worden. Deze hebben we dan ondervedeelt en elke in meer detail onderzoeken. Op deze manier konden we een beslissing maken over welke methode het beste aansluit aan onze eisen. Ik heb SVOSemi-direct Visual Odometry
 
+[#27](https://github.com/urbinn/urbinn/issues/27)  | ### Issue 27 :  SVO Paper bestuderen  <br> Ik heb samen met Isa een samenvatting van de werking van SVO (Semi-direct Visual Odometry) gemaakt   <br> [SVO Paper](files/Issue1/Issue 1 - Existing Technologies.pdf) 
 
-### Issue 27 :  SVO Paper bestuderen [#27](https://github.com/urbinn/urbinn/issues/27) 
-Ik heb samen met Isa een samenvatting van de werking van SVO (Semi-direct Visual Odometry) gemaakt. 
-[SVO Paper](files/Issue1/Issue 1 - Existing Technologies.pdf) 
-
-### Issue 32 :  Camera Calibratie [#32](https://github.com/urbinn/urbinn/issues/32) 
-
-Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gekeken. Een veelgebruikte standaard is de OpenCV Camera Calibratie framework. We hebben deze in de omgeving van ROS gebruikt.
+[#32](https://github.com/urbinn/urbinn/issues/32) | ### Issue 32 :  Camera Calibratie  <br> Voor het kalibreren van de camera hebben we naar verschillende mogelijkheden gekeken. Een veelgebruikte standaard is de OpenCV Camera Calibratie framework. We hebben deze in de omgeving van ROS gebruikt.
 
 ### Issue 40 :  ORB2 save/load map [#40](https://github.com/urbinn/urbinn/issues/40) 
 
