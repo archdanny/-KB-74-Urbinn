@@ -18,6 +18,8 @@
 
 # 1. Urbinn
 
+![Urbinn](img/urbinn.png)
+
 URBINN is het LearningLab rondom autonoom rijdend vervoer binnen stedelijke gebieden (last mile). Binnen URBINN wordt een autonoom rijdend voertuig ontwikkeld dat als basis zal dienen om steeds verder te ontwikkelen en waar allerlei onderzoek op en mee gedaan zal gaan worden. URBINN is als LearningLab gelieerd aan het Lectoraat Smart Sensor Systems, terwijl de ontwikkeling van het voertuig geheel wordt gecoördineerd en gefaciliteerd binnen de Betafactory. Het onderzoek van URBINN sluit daarbij aan bij het onderzoeksplatform : “Goed Bestuur in een Veilige Wereld”.
 
 In de portfolio geef ik  aan wat ik allemaal voor het project heb gedaan. Hier komen issues, opdrachten en courses aan bod.
@@ -73,7 +75,7 @@ Issue | Omschrijving
 
 # 3 Presentaties & Blog updates  
 
-Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en de presentaties geven. 
+Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en presentaties moet geven. 
 
 In de presentaties folder staat elke presentatie die ik gemaakt heb. [Presentatie's folder](producten/presentaties) 
 
@@ -106,6 +108,7 @@ Ik heb de datcamp assigments gedaan. Het heeft geholpen om veel gebruikte data s
 
 ## 4.3 Calling Bullshit 
 
+Ik heb de "Calling bullshit in the age of big data" opdracht gemaakt. Hier moest ik onjuist informatie vinden die "bullshit" is.
 [Calling Bullshit](producten/calling_bullshit/CallingBullshit.pdf)
 
 ## 4.4 Notebooks 
