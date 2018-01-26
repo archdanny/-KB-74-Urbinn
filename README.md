@@ -15,7 +15,7 @@
     3. [Calling Bullshit](#calling_bullshit) 
     4. [Notebooks](#notebooks) 
     5. [Spark](#spark) 
-
+5. [Belangrijke bijdrage](#Belangrijke_bijdrage)
 # 1. Urbinn
 
 ![Urbinn](img/urbinn.png)
@@ -77,7 +77,7 @@ Issue | Omschrijving
 
 Er is een planning gemaakt waar iedereen een paar weken de blog moet updaten en presentaties moet geven. 
 
-In de presentaties folder staat elke presentatie die ik gemaakt heb. [Presentatie's folder](producten/presentaties) 
+In de folder staat elke presentatie die ik gemaakt heb. [Presentatie's folder](producten/presentaties) 
 
 | Week | Presentatie |
 |------|:-----------:|                  
@@ -98,8 +98,7 @@ Ik heb de Machine Learning course van Coursera gevolgd. Deze cursus heeft geholp
 
 ## 4.2 Datacamp 
 
-Ik heb de datcamp assigments gedaan. Het heeft geholpen om veel gebruikte data science frameworks in python te leren programmeren.
-
+Ik heb de datcamp assigments gedaan. Het heeft geholpen om met veel gebruikte data science frameworks in python te leren programmeren.
 
 ![Datacamp xp](img/datacamp_xp.png)
 
@@ -119,6 +118,48 @@ Ik heb een paar python opdrachten in notebooks gemaakt. De notobooks  kunnen hie
 
 Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden worden. [Spark folder](producten/spark)
 
+
+
+
+# 5. Belangrijke bijdrage
+
+
+Save load Orb Slam 2
+
+Het opnieuw inladen van een pointcloud model met zijn trajectory om die verder te leren. Boost serialization is hiervoor gebruikt. Daarna zijn we overgestapt naar XML loading.
+
+Serialization met onnodige data .
+```javascript
+    string localString = filename;
+    localString.append(".bin");
+    std::ifstream is(localString, std::ios_base::binary);
+    if (!is) {
+        cerr << "Cannot Open Mapfile: " << mapfile << ", Create a new one" << std::endl;
+        return false;
+    }
+    boost::archive::binary_iarchive ia(is, boost::archive::no_header);
+
+    ia >> mpMap;
+```
+
+Keuze van belangrijke data die opgeslagen moet worden.
+```javascript
+    string localStringTXT = filename;
+    localStringTXT.append("XML.txt");
+
+    if (!fileExists(localStringTXT)) {
+        return false;
+    }
+
+    using boost::property_tree::ptree;
+    ptree pt;
+    read_xml(localStringTXT, pt);
+    
+    std::vector<KeyFrame*> keyframes = KeyFrame::keyFrameFromPropertyTree(pt);
+```
+
+
+        
 
 
 
