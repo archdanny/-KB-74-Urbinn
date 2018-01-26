@@ -65,7 +65,7 @@ Issue | Omschrijving
 [#91](https://github.com/urbinn/urbinn/issues/91) | **Issue 91 :  ORB2 pointcloud maken slinger** <br> Ik heb een pointcloud gemaakt van onze gemaakte opnames van de slinger. 
 [#106](https://github.com/urbinn/urbinn/issues/106) | **Issue 106 :  Orb2 stability fix** <br> Ik heb een paar memory leaks in orb slam 2 gevonden. Ik heb deze dan gefixt.
 [#112](https://github.com/urbinn/urbinn/issues/112) | **Issue 112 :  URB: Evaluatie Pointcloud** 
-[#126](https://github.com/urbinn/urbinn/issues/126) |  **Issue 126 :  Local Bundle Adjustment** <br> De local bundle adjumstment voor urb moest gemaakt worden. 
+[#126](https://github.com/urbinn/urbinn/issues/126) |  **Issue 126 :  Local Bundle Adjustment** <br> Ik heb de local bundle adjustment voor urb gemaakt. De input data moest geconverteerd worden zodt g2o de data kon gebruiken. Ik heb hiervoor ook een script gemaakt om de timestamps van de alfbeeldingen te genereren. [Script](files/scripts/timestamp.md) 
 [#132](https://github.com/urbinn/urbinn/issues/132) | **Issue 132 :  Efficient depth estimation**  <br> Voor deze issue moest er een effieciente manier bedacht worden om de patches heen te loopen. We zijn niet tot de implementatie van deze feature gekomen. Het is een issue die voor de real time semmentic mapping van belang is.
 [#134](https://github.com/urbinn/urbinn/issues/134) | **Issue 134 :  Een centrale repository maken van Pyurb en g2o**  <br> Er waren verschillende repositories waar leden van de groep in werkten. Jeroen en ik hebben samen een centrale repositry opgezet waar iedereen kan werken. Dit zorgt voor overzicht van alle code.
 [#136](https://github.com/urbinn/urbinn/issues/136) |  **Issue 136 :  Full BA code schrijven**  <br> De code de full bundle adjustment 
@@ -124,7 +124,7 @@ Ik heb een paar Spark opdrachten gedaan. De spark files kunnen hier gevonden wor
 # 5. Belangrijke bijdrage
 
 
-Save load Orb Slam 2
+**Save load Orb Slam 2**
 
 Het opnieuw inladen van een pointcloud model met zijn trajectory om die verder te leren. Boost serialization is hiervoor gebruikt. Daarna zijn we overgestapt naar XML loading.
 
